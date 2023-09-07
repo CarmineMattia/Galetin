@@ -21,9 +21,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
         </Col>
         <Col lg={12} md={12} sm={24} xs={24}>
           <Slide direction="right">
-            <Button onClick={handleCallClick}>
-              {t("Call +381 63 434449")}
-            </Button>
+            <Button onClick={handleCallClick}>{t("+381 63 434449")}</Button>
           </Slide>
         </Col>
       </Row>
