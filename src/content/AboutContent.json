@@ -1,16 +1,21 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "О нама",
+  "text": "Са традицијом дугом више од деценије, наша стакларница је постала синоним за квалитет и прецизност у области стакларских услуга. Наша посвећеност детаљима и стремљење ка савршенству осигурало је да смо први избор многих домаћинстава и пословних простора.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Наши материјали",
+      "content": "Користимо само највиши квалитет стакла и материјала, обезбеђујући дуговечност и издржљивост нашим производима.",
+      "icon": "undraw_factory_dy-0-a.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Стручни тим",
+      "content": "Наши стаклари су високо квалификовани професионалци који обезбеђују прецизан и квалитетан рад сваки пут.",
+      "icon": "undraw_team_spirit_re_yl1v.svg"
+    },
+    {
+      "title": "Прилагођени пројекти",
+      "content": "Без обзира на то да ли имате специфичан захтев или јединствен пројекат, ми смо спремни да се прилагодимо вашим потребама.",
+      "icon": "undraw_personalization_re_grty.svg"
     }
   ]
 }

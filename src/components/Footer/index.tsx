@@ -56,11 +56,17 @@ const Footer = ({ t }: any) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="sms:+38163434449">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
+              <Language>{t("Address")}</Language>
+              <Para>Vojislava Bakića 6,</Para>
+              <Para>Sombor 25000,</Para>
+              <Para>Srbija</Para>
+            </Col>
+            {/* <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Policy")}</Title>
               <Large to="/" left="true">
                 {t("Application Security")}
@@ -68,8 +74,8 @@ const Footer = ({ t }: any) => {
               <Large left="true" to="/">
                 {t("Software Principles")}
               </Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            </Col> */}
+            {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
               <Large left="true" to="/">
                 {t("Support Center")}
@@ -77,17 +83,17 @@ const Footer = ({ t }: any) => {
               <Large left="true" to="/">
                 {t("Customer Support")}
               </Large>
-            </Col>
-          </Row>
+            </Col> */}
+            {/* </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
+              <Para>Vojislava Bakića 6,</Para>
+              <Para>Sombor 25000,</Para>
+              <Para>Srbija</Para>
+            </Col> */}
+            {/* <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large left="true" to="/">
                 {t("About")}
@@ -101,21 +107,21 @@ const Footer = ({ t }: any) => {
               <Large left="true" to="/">
                 {t("Careers & Culture")}
               </Large>
-            </Col>
+            </Col> */}
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
                   <SvgIcon
-                    src="united-states.svg"
+                    src="serbia.png"
                     aria-label="homepage"
-                    width="30px"
-                    height="30px"
+                    width="40px"
+                    height="40px"
                   />
                 </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
+                <LanguageSwitch onClick={() => handleChange("sr")}>
                   <SvgIcon
-                    src="spain.svg"
+                    src="united-kingdom.png"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
@@ -136,7 +142,7 @@ const Footer = ({ t }: any) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="galetin-logo-inverted.svg"
                   aria-label="homepage"
                   width="101px"
                   height="64px"
@@ -145,27 +151,18 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
+                href="hhttps://www.google.com/maps/place/STAKLOREZAC+GALETIN/@45.7827588,19.1191652,17z/data=!3m1!4b1!4m6!3m5!1s0x475cb5d8be36bdb9:0xb4236a016b503940!8m2!3d45.7827551!4d19.1217455!16s%2Fg%2F11_q5yxsc?entry=ttu"
+                src="locate-outline.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
+                href="https://www.google.com/maps/place/STAKLOREZAC+GALETIN/@45.7827551,19.1217455,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMZQfHr-9qD9lqSde3xsj9qggMiEcs4YoHunLOm!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMZQfHr-9qD9lqSde3xsj9qggMiEcs4YoHunLOm%3Dw203-h360-k-no!7i2604!8i4624!4m9!3m8!1s0x475cb5d8be36bdb9:0xb4236a016b503940!8m2!3d45.7827551!4d19.1217455!10e5!14m1!1BCgIgARICGAI!16s%2Fg%2F11_q5yxsc?entry=ttu"
+                src="logo-google.svg"
               />
+              <SocialLink href="tel:+38163434449" src="call-outline.svg" />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
+                href="viber://chat?number=%2B38163434449"
+                src="icons8-viber-96.svg"
               />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              />
-              <a href="https://www.buymeacoffee.com/adrinlol">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
             </FooterContainer>
           </Row>
         </Container>

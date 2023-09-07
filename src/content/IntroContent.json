@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Staklarske usluge",
+  "text": "Добродошли у нашу стакларницу! Пружамо професионалне стакларске услуге за ваш дом и пословни простор. Било да вам је потребна поправка прозора, инсталација стакла на вратима или прилагођени пројекти, наш тим је овде да вам помогне.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Истражите"
     },
     {
-      "title": "Learn more",
+      "title": "Сазнајте више",
       "color": "#fff"
     }
   ]

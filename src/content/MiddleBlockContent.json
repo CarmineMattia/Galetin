@@ -1,6 +1,5 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get started"
-  }
-  
+  "title": "Комплетна решења за ваш простор",
+  "text": "Наша стакларница није само о поправцима и установама. Ми креирамо и израђујемо све – од персонализованих оквира за слике и огледала до квалитетних прозора који лепо изгледају и трају дуго. Сваки производ је резултат наше посвећености изврсности и иновацијама. Нека наш тим ствара посебан и уникалан амбијент у вашем дому или пословном простору.",
+  "button": "Get started"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "About Us",
+  "text": "With a tradition spanning over a decade, our glasswork shop has become synonymous with quality and precision in the field of glass services. Our dedication to detail and striving for perfection has ensured that we are the first choice for many households and businesses.",
+  "section": [
+    {
+      "title": "Our Materials",
+      "content": "We use only the highest quality glass and materials, ensuring durability and resilience in our products.",
+      "icon": "undraw_factory_dy-0-a.svg"
+    },
+    {
+      "title": "Expert Team",
+      "content": "Our glassworkers are highly qualified professionals who ensure precise and quality work every time.",
+      "icon": "undraw_team_spirit_re_yl1v.svg"
+    },
+    {
+      "title": "Custom Projects",
+      "content": "Whether you have a specific request or a unique project, we are ready to accommodate your needs.",
+      "icon": "undraw_personalization_re_grty.svg"
+    }
+  ]
+}
