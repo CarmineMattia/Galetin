@@ -6,14 +6,12 @@ import Container from "../../common/Container";
 import i18n from "i18next";
 import {
   FooterSection,
-  Title,
   NavLink,
   Extra,
   LogoContainer,
   Para,
   Large,
   Chat,
-  Empty,
   FooterContainer,
   Language,
   Label,
