@@ -164,6 +164,26 @@ const Footer = ({ t }: any) => {
             </FooterContainer>
           </Row>
         </Container>
+        <Container>
+          <Row
+            justify="center"
+            align="middle"
+            style={{ padding: "5rem 0 3rem 0" }}
+          >
+            <p style={{ fontSize: "0.8rem" }}>
+              {" "}
+              All rights reserved by{" "}
+              <a
+                href="https://www.instagram.com/carmine__mattia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "white" }}
+              >
+                Carmine Mattia Castello
+              </a>
+            </p>
+          </Row>
+        </Container>
       </Extra>
     </>
   );
